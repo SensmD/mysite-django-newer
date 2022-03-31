@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <h1>learning</h1>
+    <div>{{ n1 }}</div>
+    <div>{{ n2 }}</div>
+    <ul>
+        {% for k,v in n3.items %}
+            <li>{{ k }} = {{ v }} </li>
+        {% endfor %}
+    </ul>
+{% if n1 == "sensmd" %}
+    <h1>lalala</h1>
+{% else %}
+    <h1>dududu</h1>
+{% endif %}
+
+</body>
+</html>
