@@ -21,5 +21,8 @@ urlpatterns = [
     path('index/', views.index),
     path('userlist/', views.user_list),
     path('tpl/', views.tpl),
-    path('comments/',views.comments)
+    # 京东评论
+    path('comments/',views.comments),
+    # 请求和响应
+    path('something',views.something)
 ]

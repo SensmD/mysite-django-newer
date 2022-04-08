@@ -32,3 +32,7 @@ def comments(req):
         data = response["comments"]
         print(data)
     return render(req, 'comments.html', {"comments": data})
+
+def something(request):
+    # request是一个对象，封装了用户发送过来的所有请求相关数据
+    return HttpResponse("welcome")
