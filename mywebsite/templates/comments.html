@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>comments</title>
+</head>
+<body>
+    <h1>京东评论</h1>
+    <ul>
+        {%  for item in comments %}
+            <li>{{ item.content }}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>

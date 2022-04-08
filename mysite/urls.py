@@ -21,4 +21,5 @@ urlpatterns = [
     path('index/', views.index),
     path('userlist/', views.user_list),
     path('tpl/', views.tpl),
+    path('comments/',views.comments)
 ]
